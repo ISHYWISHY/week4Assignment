@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+}
+
+.clm {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+    border: 5px solid purple;
+}
+
+marquee {
+    background-color: purple;
+    color: yellow;
+    border: 5px dotted black;
+    font-family: 'Brush Script MT', cursive;
+}
+
+p {
+    background-color: pink;
+    text-align: center;
+}
+
+h1 {
+    background-color: purple;
+    border: 10px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 5;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+  
+li {
+    float: center;
+}
+  
+li a {
+    display:block;
+    color: purple;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+li a:hover {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);   
+}
+
